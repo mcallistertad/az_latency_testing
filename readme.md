@@ -4,6 +4,19 @@
 
 This script performs latency tests on IP addresses extracted from JSON files containing network prefixes for different cloud providers (Google Cloud, AWS, and Azure). The results are saved in a specified format (`csv` or `txt`) and can include IPv6 addresses if desired.
 
+GCP
+```bash
+curl -O https://www.gstatic.com/ipranges/cloud.json
+```
+AWS
+```bash
+curl -O https://ip-ranges.amazonaws.com/ip-ranges.json
+```
+Azure
+```bash
+curl -O https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240826.json
+```
+
 ## Table of Contents
 - [Usage](#usage)
 - [Features](#features)
